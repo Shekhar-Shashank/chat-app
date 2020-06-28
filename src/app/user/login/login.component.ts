@@ -4,7 +4,6 @@ import { Cookie } from 'ng2-cookies/ng2-cookies';
 import { AppService } from './../../app.service';
 
 import { ToastrManager } from 'ng6-toastr-notifications';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @Component({
   selector: 'app-login',

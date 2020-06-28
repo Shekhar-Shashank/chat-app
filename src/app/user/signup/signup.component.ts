@@ -3,7 +3,7 @@ import { Router } from '@angular/router';
 import { AppService } from './../../app.service';
 
 import { ToastrManager } from 'ng6-toastr-notifications';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+//import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @Component({
   selector: 'app-signup',

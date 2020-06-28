@@ -7,7 +7,7 @@ import { ToastrModule } from 'ng6-toastr-notifications';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { SharedModule } from '../shared/shared.module';
-import { UserDetailsComponent } from '../shared/user-details/user-details.component';
+//import { UserDetailsComponent } from '../shared/user-details/user-details.component';
 import { RemoveSpecialCharPipe } from './../shared/pipe/remove-special-char.pipe';
 import { ChatRouteGuardService } from './chat-route-guard.service';
 

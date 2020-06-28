@@ -8,6 +8,7 @@ import { Cookie } from 'ng2-cookies/ng2-cookies';
 export class ChatRouteGuardService implements CanActivate {
 
   constructor(private router: Router) { }
+  
   canActivate(route: ActivatedRouteSnapshot): boolean {
 
     console.log("in guard service");

@@ -1,7 +1,7 @@
 import { Component, OnInit, OnChanges, Input, EventEmitter, Output } from '@angular/core';
 
 @Component({
-  selector: 'app-user-details',
+  selector: 'user-details',
   templateUrl: './user-details.component.html',
   styleUrls: ['./user-details.component.css']
 })
@@ -14,6 +14,8 @@ export class UserDetailsComponent implements OnInit {
 
   
   public firstChar: string;
+  public userColor;
+  public userBg;
 
 
   ngOnInit(): void {

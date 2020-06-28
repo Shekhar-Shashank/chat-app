@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Cookie } from 'ng2-cookies/ng2-cookies';
-import { catchError } from 'rxjs/operators';
+//import { catchError } from 'rxjs/operators';
 
 //import 'rxjs/add/operator/catch';
 //import 'rxjs/add/operator/do';
